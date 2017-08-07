@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: oo_div
 # key: oo_div
+# first delete some text, and then call ths
 # --
 <div>
-`yas-selected-text` $0
+`(car kill-ring)` $0
 </div>
