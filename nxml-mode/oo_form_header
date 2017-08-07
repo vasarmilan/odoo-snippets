@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: oo_form_header
+# key: oo_header_form
+# --
+<header>
+				<button name="$1" string="$2" class="oe_highlight" states="$3" type="$4"/>
+				<field name="state" widget="statusbar" statusbar_visible="$5" statusbar_colors="{'KEY_IS_STATE':'VALUE_IS_COLOR'}"/>
+</header>

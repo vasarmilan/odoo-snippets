@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: fields_one2many
+# key: fi_o2m
+# --
+${10:new_field_ids} = fields.One2many(
+    string="${20:Field name}",
+    comodel_name="${30:res.partner}",
+    inverse_name="${40:inverse_name_id}",
+    domain="[('${50:field}', '${51:=}', ${52:other})]",
+    context={"${60:key}": ${61:"value"}},
+    help="${70:Explain your field}.",
+      )$80

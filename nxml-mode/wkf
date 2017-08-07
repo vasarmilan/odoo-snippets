@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: oo_workflow
+# key: oo_wkf
+# group: odoo
+# --
+<record id="wkf_$1" model="workflow">
+<field name="name">$2</field>
+<field name="osv">$3</field>
+<field name="on_create">True</field>
+</record>

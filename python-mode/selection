@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: fields_selection
+# key: fi_select
+# --
+${5:new_field} = fields.Selection(
+        string="${10:Field name}",
+        selection=[
+                      ('${20:value1}', '${21:description1}'),
+                      ('${30:value2}', '${31:description2}'),
+        ],$40
+)$50

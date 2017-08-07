@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: oo_inherit
+# key: oo_inh
+# --
+class ${10:NewModule}(models.Model):
+    _name = '${20:module.name}' # optional
+    _inherit = '${30:module.name}'
+    name = fields.Char()$40

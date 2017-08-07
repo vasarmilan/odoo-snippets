@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: oo_data
+# key: oo_data
+# --
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  $0
+</odoo>

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fields_integer
+# key: fi_int
+# --
+${5:new_field} = fields.Integer(string="${10:Field name}", )

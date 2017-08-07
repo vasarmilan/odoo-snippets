@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: oo_name_search
+# key: oo_name_search
+# --
+self.name_search(name='$1', ${2:args=${3:None},} ${4:operator='${5:ilike}',} ${6:limit=${7:100}})

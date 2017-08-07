@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: oo_method_onchange
+# key: me_onchange
+# --
+@api.onchange("${10:field1}"${15:,})
+def _onchange_$10(self):
+    vals = {}
+    ${20:# Remove warning if necessary
+    vals['warning'] = \{
+      'title': _('$40'),
+      'message': _('$50')
+    \}}
+    ${51:# Remove domain if necessary
+    vals['domain'] = \{
+      "${60:field}": [("$61", "${62:=}", ${63:value})],
+    \}}
+    return vals$70

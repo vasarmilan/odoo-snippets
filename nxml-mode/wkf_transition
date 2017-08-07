@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name : oo_wkf_transition
+# key : oo_wkf_trns
+#add transition to workflow
+# --
+<record id="trans_$1" model="workflow.transition">
+<field name="act_from" ref="$2"/>
+<field name="act_to" ref="$3"/>
+<field name="signal">$4</field>
+</record>

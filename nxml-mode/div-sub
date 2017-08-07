@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: oo_div
+# key: oo_div
+# --
+<div>
+`yas-selected-text` $0
+</div>

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fields_datetime
+# key: fi_dt
+# --
+${5:new_field} = fields.Datetime(string="${10:Field name}", )

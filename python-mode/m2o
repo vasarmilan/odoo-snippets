@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: fields_many2one
+# key: fi_m2o
+# --
+${10:new_field_id} = fields.Many2one(
+    string="${20:Field name}",
+    comodel_name="${30:res.partner}",
+    domain="[('${40:field}', '${41:=}', ${42:other})]",
+    context={"${50:key}": ${51:"value"}},
+    ondelete="${60:set null}",
+    help="${70:Explain your field}.",
+      )$80

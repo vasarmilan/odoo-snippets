@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: oo_inherit_search
+# key: oo_inh_search
+# --
+<record id="$1" model="ir.ui.view">
+        <field name="name">$2.search</field>
+				<field name="model">$2</field>
+				<field name="inherit_id" ref="$3"/>
+				<field name="arch" type="xml">
+					<field name="$4" position="$5">
+						<!-- Add new fields or filters here -->
+					</field>
+				</field>
+			</record>

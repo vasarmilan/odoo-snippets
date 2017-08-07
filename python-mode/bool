@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fields_boolean
+# key: fi_bool
+# --
+${5:is_new_field} = fields.Boolean(string="${10:Field name}", )

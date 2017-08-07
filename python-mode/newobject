@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: object
+# key: oo_obj
+# --
+class ${10:NewModule}(models.Model):
+    _name = '${20:module.name}'
+    _description = '${40:Module description}'
+    name = fields.Char()$70

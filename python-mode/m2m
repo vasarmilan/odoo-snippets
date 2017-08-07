@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: fields_many2many
+# key: fi_m2m
+# --
+${10:new_field_ids} = fields.Many2many(
+    string="${20:Field name}",
+    comodel_name="${30:res.partner}",
+    relation="${40:relation_table_name}",
+    column1="${50:column_this}",
+    column2="${60:column_other}",
+    domain="[('${70:field}', '${71:=}', ${72:other})]",
+    context={"${80:key}": ${81:"value"}},
+    help="${90:Explain your field}.",
+      )$100

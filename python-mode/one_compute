@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: oo_method_one_compute
+# key: me_one_compute
+# --
+@api.one
+@api.depends("${10:field1}"${15:,"${20: field3}",})
+def _compute_${30:field}(self):
+    ${40:self.$30 = $0}

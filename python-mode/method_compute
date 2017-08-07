@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: oo_method_compute
+# key: me_compute
+# --
+@api.multi
+@api.depends("${10:field1}"${15:,"${20: field2}",} $25)
+def _compute_${30:field}(self):
+    for s in self:
+        ${40:pass}

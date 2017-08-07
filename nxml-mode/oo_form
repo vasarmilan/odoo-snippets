@@ -1,0 +1,17 @@
+# -*- mode: snippet -*-
+# name: oo_new_form
+# key: oo_new_form
+# --
+<record id="$1_view_form" model="ir.ui.view">
+        <field name="name">$2.form</field>
+				<field name="model">$2</field>
+				<field name="arch" type="xml">
+					<form string="$3">
+						<sheet>
+							<group>
+								<field name="$4"/>
+							</group>
+						</sheet>
+					</form>
+				</field>
+</record>

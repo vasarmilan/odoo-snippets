@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: oo_xpath
+# key: oo_xpath
+# --
+<xpath expr="$10" position="${20:$$(yas-choose-value '("before" "after" "replace"))}">
+<${30:field name="${40:}"}/>${50:
+}
+</xpath>
+$0

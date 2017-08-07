@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: oo_domain
+# key: oo_domain
+# group: odoo
+# --
+domain="[('$1', '=', $2), ]

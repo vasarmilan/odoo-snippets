@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: oo_method_multi_constrains
+# key: me_multi_constrains
+# --
+@api.multi
+@api.constrains("${10:field1}")
+def _check_$10(self):
+    for s in self:
+        if s.$10 == ${50:value}:
+            raise ValidationError(_("$60"))$70

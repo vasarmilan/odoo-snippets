@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: oo_menuitem_category
+# key: oo_menu_category
+# group: odoo
+# Create menu item for category
+# --
+<menuitem id="menu_$1" name="$2" parent="$3" sequence="$4"/>
+$0

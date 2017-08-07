@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: oo_nested_group
+# key: oo_nested_group
+# group: odoo
+# 
+# --
+<group string="$1">
+<group>
+<field name="$2"/>
+</group>
+<group>
+<field name="$3"/>
+</group>
+</group>

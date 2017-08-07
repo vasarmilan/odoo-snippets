@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fields_date
+# key: fi_date
+# --
+${5:new_field} = fields.Date(string="${10:Field name}", )

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: oo_menuitem_root
+# key: oo_menu_root
+# group: odoo
+# --
+<menuitem id="menu_$1" name="$2" sequence="$3"/>
+$0

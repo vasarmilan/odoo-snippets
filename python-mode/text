@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fields_text
+# key: fi_txt
+# --
+${5:new_field} = fields.Text(string="${10:Field name}", )
