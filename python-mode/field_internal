@@ -1,0 +1,24 @@
+# -*- mode: snippet -*-
+# name: Odoo Field Internal
+# key: oo_field_internal
+# expand-var: ((yas-indent-line 'fixed) (yas-also-auto-indent-first-line 'nil))
+# --
+$20 = fields.$40("$60",
+               compute="_get_$20",
+               inverse="_set_$20")
+
+internal_$20 = fields.$40("")
+
+@api.one
+${80:@api.depends("${100:field1}"${150:,"${200: field3}",})
+}def _get_$20(self):
+    if ${300:condition}:
+        self.$20 = self.internal_$20
+    else:
+        ${400:pass}
+
+def _set_$20(self):
+    if ${500:condition}:
+        self.internal_$20 = self.$20
+    else:
+        ${600:pass}

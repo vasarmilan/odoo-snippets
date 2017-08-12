@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: odoo label for
+# key: oo_label_for
+# --
+<label for="$1"/>
+<field name="$1"/>$0

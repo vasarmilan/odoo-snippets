@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Odoo Field Compute
+# key: oo_field_compute
+# --
+$2 = fields.$4("$6", compute="_compute_$2",$7)
+
+@api.one
+${8:@api.depends("${10:field1}"${15:,"${20: field3}",})
+}def _compute_$2(self):
+    ${40:self.$2 = $0}

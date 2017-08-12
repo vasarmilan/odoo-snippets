@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Odoo Return Warning
+# key: oo_return_warning
+# --
+return {'warning': {
+    'title': _('${1:Warning}'),
+    'message': _('${2:My warning message.}')
+}}

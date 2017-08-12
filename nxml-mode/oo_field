@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Odoo Options Field
+# key: oo_options_field
+# odoo field with additional options
+# --
+<field name="$10" ${15:domain="$20"}${30: invisible="1"}$40/>$0

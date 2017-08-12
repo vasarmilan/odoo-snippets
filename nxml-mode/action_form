@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: Odoo Action Form
+# key: oo_action_form
+# --
+		<record id="$10_action_form" model="ir.actions.act_window">
+				<field name="name">$20</field>
+				<field name="res_model">$30</field>
+				<field name="view_mode">tree,form</field>
+				<field name="help" type="html">
+					<p class="oe_view_nocontent_create">
+						${40:<!-- Add Text Here -->}
+					</p>
+					<p>
+						${50:<!-- More details about what a user can do -->}
+					</p>
+				</field>
+			</record>
+      $0

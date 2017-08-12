@@ -1,0 +1,6 @@
+
+# -*- mode: snippet -*-
+# name: Odoo Filter Search
+# key: oo_filter_search
+# --
+<filter name="$10" string="$20" domain="[('$30', '${40:=}', '$50'),]"/>$0

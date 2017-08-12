@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: Odoo Field Inverse
+# key: oo_field_inverse
+# --
+$2 = fields.$4("$6",
+               compute="_get_$2",
+               inverse="_set_$2")
+
+
+@api.one
+${8:@api.depends("${10:field1}"${15:,"${20: field3}",})
+}def _get_$2(self):
+    ${40:self.$2 = $0}
+
+def _set_$2(self):
+    pass

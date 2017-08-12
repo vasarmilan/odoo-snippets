@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Odoo Create
+# key: oo_create
+# --
+@api.model
+def create(self, vals):
+    new_id = super(${10:class_name}, self).create(vals)
+    return new_id

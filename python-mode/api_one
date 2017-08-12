@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Odoo Api One
+# key: oo_api_one
+# --
+@api.one
+def $1(self):
+    pass
