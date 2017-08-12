@@ -1,18 +1,14 @@
 # -*- mode: snippet -*-
-# name: oo_action
+# name: Odoo Action
 # key: oo_action
 # --
-		<record id="$10_action_form" model="ir.actions.act_window">
-				<field name="name">$20</field>
-				<field name="res_model">$30</field>
-				<field name="view_mode">tree,form</field>
-				<field name="help" type="html">
-					<p class="oe_view_nocontent_create">
-						${40:<!-- Add Text Here -->}
-					</p>
-					<p>
-						${50:<!-- More details about what a user can do -->}
-					</p>
-				</field>
-			</record>
-      $0
+<record id="${10:$(replace-regexp-in-string "\\\\." "_" yas-text)}_action" model="ir.actions.act_window">
+<field name="name">$10.action</field>
+<field name="type">ir.actions.act_window</field>
+<field name="res_model">$10</field>
+<field name="view_mode">${25:tree,form}</field>
+${30:<field name="view_type">form</field>
+<field name="view_id" ref="$40"/>
+}${50:<field name="domain">[('$54', '=',$58 )]</field>
+}${60:<field name="context">{'$65': $70}</field>
+}</record>$0

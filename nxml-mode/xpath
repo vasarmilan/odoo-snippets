@@ -2,8 +2,6 @@
 # name: oo_xpath
 # key: oo_xpath
 # --
-<xpath expr="$10" position="${20:$$(yas-choose-value '("before" "after" "replace"))}">
-<${30:field name="${40:}"}/>${50:
-}
+<xpath expr="${10://field[@name='$15']}" position="${20:$$(yas-choose-value '("before" "after" "replace" "attributes"))}">
+${30:<field name="${40:}"${45:}/>}$0
 </xpath>
-$0

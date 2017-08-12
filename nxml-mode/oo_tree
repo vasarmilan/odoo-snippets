@@ -1,13 +1,13 @@
 # -*- mode: snippet -*-
-# name: oo_new_tree
+# name: Odoo New Tree
 # key: oo_new_tree
 # --
-<record id="${10:$(substitute "\." "_" yas-text)}_view_tree" model="ir.ui.view">
+<record id="${10:$(replace-regexp-in-string "\\\\." "_" yas-text)}_tree" model="ir.ui.view">
 				<field name="name">$10.tree</field>
 				<field name="model">$10</field>
 				<field name="arch" type="xml">
 					<tree string="$20">
-						<field name="$40"/>
+						<field name="$40"/>$0
 					</tree>
 				</field>
 			</record>

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: oo_method_compute
-# key: me_compute
+# name: Odoo multi compute
+# key: oo_multi_compute
 # --
 @api.multi
 @api.depends("${10:field1}"${15:,"${20: field2}",} $25)
