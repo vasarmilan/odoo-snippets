@@ -9,6 +9,6 @@
 					<search string="$30">
 						<field name="$40"/>
 						<filter name="$50" string="$60" domain="[('$70', '=', $80),$0]"/>
-					</tree>
+					</search>
 				</field>
 			</record>

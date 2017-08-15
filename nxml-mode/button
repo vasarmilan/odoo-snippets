@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Odoo Button
+# key: oo_button
+# --
+<button name="$10" class="oe_button" string="$20" type="object" ${30:context="{'$40':'$50'}"}$0/>

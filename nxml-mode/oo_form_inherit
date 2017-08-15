@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: oo_inherit_form
+# name: Odoo Inherit Form
 # key: oo_inh_form
 # --
 <!-- Inherit Form  view -->
@@ -12,3 +12,4 @@
 <!-- Add your fields or attributes here -->
 </field>
 </field
+</record>
