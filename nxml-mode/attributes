@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Odoo Attribute Tag
+# key: oo_attr_tag
+# --
+<attribute name="${10:attrs}">$20</attribute>$0

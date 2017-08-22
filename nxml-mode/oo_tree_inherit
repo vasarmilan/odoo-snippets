@@ -6,7 +6,7 @@
 				<field name="name">$2.tree</field>
 				<field name="model">$2</field>
 				<field name="inherit_id" ref="$1"/>
-				<field name="arch" type="XML">
+				<field name="arch" type="xml">
 					${4:<field name="$5" position="$6">
           ${7:<!-- Add new fields here -->}
 					$0</field>}
